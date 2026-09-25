@@ -1,16 +1,8 @@
-setwd("~/Desktop/Related_to_Haider_Lab/TCGA_TNBC")
+## Survvial analysis in test set using genes taht distinguish ER vs nonER
 
 library(dplyr)
 
 clinical <- read.table(file="TCGA_BRCA_Clinica_information_with_vital_status_and_days_to_death.txt",header = T, stringsAsFactors = F, sep="\t")
-
-#(base) siddharthadas@Mac TCGA_TNBC % grep -Ril "days_to_last_follow_up" .
-#./TCGA_BRCA/TCGA_BRCA_clinical.rds
-#./Fit_DL_models_TCGA_data.ipynb
-#./TCGA_BRCA_Clinica_information_with_vital_status_and_days_to_death.csv
-#./Clinical_data_for_1098_TCGA_BRCA_patients.txt
-#./TCGA_BRCA_clinical.rds
-# ./TCGA_BRCA_Clinica_information_with_vital_status_and_days_to_death.txt
 
 relevant_genes <- read.csv(file="Potential_Candidate_genes_distinguishing_ER_positive_versus_ER_negative.csv",header = T, stringsAsFactors = F)
 
