@@ -28,4 +28,5 @@ Right now, the analysis only includes transcriptomic data
 ## Repository structure
 
 - `Notebooks/` — analysis notebooks
+- `Tables/` - important results
 - `Figures/` — key figures
