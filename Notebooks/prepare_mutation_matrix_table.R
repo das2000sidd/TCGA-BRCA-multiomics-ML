@@ -1,5 +1,3 @@
-setwd("~/Desktop/Related_to_Haider_Lab/TCGA_TNBC")
-
 wes_maf <- readRDS("TCGA_BRCA_WES_protein_altering_MAF.rds")
 
 rna_counts <- readRDS("rna_counts_1095_patients.rds")
