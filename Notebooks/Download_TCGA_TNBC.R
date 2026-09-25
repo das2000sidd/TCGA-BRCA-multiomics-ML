@@ -1,5 +1,3 @@
-setwd("~/Desktop/Related_to_Haider_Lab/TCGA_TNBC")
-
 library(TCGAbiolinks)
 library(dplyr)
 
