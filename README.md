@@ -7,6 +7,10 @@ Deep-learning analysis of TCGA breast cancer data using omics data and clinical 
 This project investigates whether transcriptomic and genomic features can be used to classify estrogen receptor (ER) status and identify molecular features associated with breast cancer outcomes.
 Right now, the analysis only includes transcriptomic data
 
+## Dataset
+
+The dataset is uploaded onto zenodo here: https://zenodo.org/records/22953150?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjM1ZmFmNGM3LTM5ZjEtNGE5OC04YTY1LTk3ZmY1MGI2OGU0ZiIsImRhdGEiOnt9LCJyYW5kb20iOiJiM2NkMmI0MjE4Y2Y5ZmQ1ZjFmMDdmZGZkYzMxNThlYiJ9.LnrZUQ0E-xU1FWA9W1QYhJM_UeKQquf6CIJnBmQhUfemewYqeyd4w6-eyg8co9yh8KQ6pqk884nnnWwgKwA0eA
+
 ## Current results
 
 - TCGA-BRCA RNA-seq and clinical data integrated for ML analysis
