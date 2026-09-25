@@ -1,6 +1,3 @@
-setwd("~/Desktop/Related_to_Haider_Lab/TCGA_TNBC")
-
-
 rna_counts <- readRDS("rna_counts_1095_patients.rds")
 clinical <- readRDS("TCGA_BRCA_clinical.rds")
 
