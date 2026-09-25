@@ -18,6 +18,7 @@ The dataset is uploaded onto zenodo here: https://zenodo.org/records/22953150?pr
 - ~0.85 macro ROC-AUC achieved on held-out test data
 - Integrated Gradients and permutation importance used for model interpretation
 - Candidate features evaluated using Cox proportional-hazards models
+- The gene ENSG00000185008/ROBO2 which was among the genes with High permutation importance and -ve IG importance for class 0 (ER + ve) and +ve IG importance for class 1 (ER -ve) could be relevant to distinguish ER+ve from ER-ve breast cancers.  
 
 ## Methods
 
