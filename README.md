@@ -303,33 +303,6 @@ Classification performance and survival association are treated as separate anal
 
 ---
 
-# Repository structure
-
-```text
-├── Notebooks/
-│   └── Analysis notebooks
-│
-├── Tables/
-│   ├── Model performance
-│   ├── Feature importance
-│   ├── Mutation associations
-│   └── Survival analysis
-│
-├── Figures/
-│   ├── Model performance
-│   ├── Confusion matrices
-│   ├── Feature importance
-│   └── Survival analysis
-│
-├── src/
-│   ├── preprocessing/
-│   ├── models/
-│   ├── feature_selection/
-│   └── evaluation/
-│
-└── README.md
-```
-
 ## Project status
 
 **Current stage:** RNA, mutation and CNV analyses completed. DNA methylation analysis is the next planned modality for evaluation.
